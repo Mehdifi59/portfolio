@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Mehdi Zarouri",
+  title: "Bonjour, Je Suis Mehdi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Étudiant en 2ᵉ année passionné par les systèmes, les réseaux et la cybersécurité 🔐. Actuellement en stage au Campus Cyber à EuraTech, je suis curieux, motivé, et toujours prêt à apprendre et à relever de nouveaux défis techniques 🚀."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Mehdifi59",
+  linkedin: "https://fr.linkedin.com/in/mehdi-zarouri-49271a354",
+  gmail: "memezed59@gmail.com",
+  gitlab: "https://gitlab.univ-lille.fr/mehdi.zarouri.etu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +45,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais",
+  subTitle: "ÉTUDIANT PASSIONNÉ PAR LES SYSTÈMES, LES RÉSEAUX ET LA CYBERSÉCURITÉ 🔐",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Surveillance, sécurisation et administration des systèmes et réseaux"),
+    emoji("⚡ Analyse de vulnérabilités et participation à des tests d’intrusion"),
+    emoji("⚡ Mise en place de solutions de sécurité (pare-feu, VPN, antivirus, etc.)"),
+    emoji("⚡ Apprentissage des concepts liés à l’ethical hacking et à la protection des données")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,36 +59,44 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Windows Server",
+      fontAwesomeClassname: "fab fa-windows"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Wireshark",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Virtualisation (VMware, VirtualBox)",
+      fontAwesomeClassname: "fas fa-desktop"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Bash / Shell",
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Python (scripts de sécurité)",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "TCP/IP, DNS, DHCP",
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Outils de cybersécurité (Nmap, Metasploit, etc.)",
+      fontAwesomeClassname: "fas fa-shield-alt"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "sql-database",
@@ -126,23 +128,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Université de Lillle",
+      logo: require("./assets/images/universite_de_lille_logo.jpeg"),
+      subHeader: "BUT Informatique",
+      duration: "Septembre 2023 - Juin 2026",
+      desc: "Spécialité Systèmes, réseaux et cybersécurité",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Lycée Colbert",
+      logo: require("./assets/images/logo_colbert.png"),
+      subHeader: "Baccalauréat STI2D",
+      duration: "Semptembre 2020 - Juillet 2021",
+      desc: "Mention assez bien",
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,91 +152,109 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Systèmes & Réseaux",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Backend",
+      Stack: "Cybersécurité",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Programmation (C, Python, Bash)",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Stagiaire en Cybersécurité & IT",
+      company: "Campus Cyber (EuraTechnologies)",
+      companylogo: require("./assets/images/campuscyberfr_logo.jpeg"), // Remplace ou ajoute une image si tu en as une
+      date: "Mai 2024 – Juin 2024",
+      desc: "Stage de 2 mois en immersion dans les environnements Cybersécurité et IT.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implémentation de Ludus pour tester une CyberRange open-source",
+        "Création de contenus pentest (IoT, Blue Team, intrusion physique)",
+        "Test et validation de contenus existants",
+        "Renouvellement de parc (12 PC sous Windows 11) et migration depuis Windows 10",
+        "Configuration d’infrastructures réseaux et supervision des sauvegardes",
+        "Mise à jour de la documentation et gestion de l’inventaire des comptes SaaS"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Stagiaire en import/export bancaire",
+      company: "Société Générale",
+      companylogo: require("./assets/images/societe_general_logo.png"), // Ajoute ton image si disponible
+      date: "Août 2021",
+      desc: "Découverte du fonctionnement des flux financiers internationaux au sein du service import/export."
     }
   ]
 };
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projets Académiques",
+  subtitle: "Quelques projets que j'ai pu faire durant mon cursus académique",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/matrix.png"),
+      projectName: "Déploiement Matrix/Synapse",
+      projectDesc: "Déploiement de matrix et de synapse pas à pas en détaillant chaque procédure.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Voir le code source",
+          url: "https://gitlab.univ-lille.fr/etu/2024-2025/s303/j-khachnane-mihoubi-zarouri"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Odoo_Official_Logo.png"),
+      projectName: "Déploiement Odoo",
+      projectDesc: "Déploiement de Odoo automatique via des scripts bash.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Voir le code source",
+          url: "https://gitlab.univ-lille.fr/aymane.benafquir.etu/sae_odoo"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/graphique.png"),
+      projectName: "Developemment d'une Application Classification",
+      projectDesc: "Développement en équipe d'une application de classification KNN",
+      footerLink: [
+        {
+          name: "Voir le code source",
+          url: "https://gitlab.univ-lille.fr/sae302/2024/J4_SAE3.3"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/itineraire.png"),
+      projectName: "Logiciel de calcul d'itinéraire",
+      projectDesc: "Développement d'un logiciel permettant de calculer des itinéraires à l'aide de l'algorithme de Djikstra",
+      footerLink: [
+        {
+          name: "Voir le code source",
+          url: "https://gitlab.univ-lille.fr/sae2.01-2.02/2024/B4"
         }
       ]
     }
@@ -300,7 +320,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -309,7 +329,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -324,7 +344,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +363,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,34 +376,33 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  title: "CV",
+  subtitle: "Vous pouvez télécharger mon cv ici",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Me contacter ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Pour discuter d'un projet ou simplement me dire bonjour ? Ma boite est ouverte à tout !.",
+  email_address: "memezed59@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
